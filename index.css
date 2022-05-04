@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;400&family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arima Madurai', cursive;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 120px;
+    background-color: #1F75A7;
+}
+
+.logo {
+    height: 100%;
+}
+
+.localizacao {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: white;
+}
+
+.input-pesquisa {
+    width: 350px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    outline: 0;
+}
+
+.input-pesquisa::placeholder {
+    font-weight: 600;
+    color: #1F75A7;
+}
+
+.pedidos {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: white;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: white;
+}
+
+.carrinho {
+    height: 30px;
+}
+
+.icone-cabecalho {
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40px;
+    background-color: #606060;
+    border: 1px solid black;
+    color: white;
+}
+
+.card1 {
+    border-radius: 25px;
+    width: 500px;
+
+
+
+}
+
+.teste {
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+
+}
+
+.card2 {
+    border-radius: 25px;
+    width: 500px;
+
+}
+
+.produtos {
+    display: flex;
+
+
+}
+
+.icone-produtos1 {
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 120px;
+    Height: 150px;
+    background-color: rgba(96, 96, 96, 1);
+    border-radius: 5px;
+}
+
+.botao1 {
+    font-size: 18px;
+    font-family: krub;
+    margin-right: 150px;
+    margin-left: 30px;
+    margin-top: 108px;
+    width: 70px;
+    height: 30px;
+    background: #FF8200;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+
+
+.icone-produtos2 {
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 120px;
+    Height: 150px;
+    background-color: rgba(96, 96, 96, 1);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.botao2 {
+    font-size: 18px;
+    font-family: krub;
+    margin-right: 130px;
+    margin-left: 30px;
+    margin-top: 108px;
+    width: 70px;
+    height: 30px;
+    background: #FF8200;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.icone-produtos3 {
+    margin-left: 130px;
+    margin-top: 80px;
+    width: 120px;
+    Height: 150px;
+    background-color: rgba(96, 96, 96, 1);
+    border-radius: 5px;
+}
+
+.botao3 {
+    font-size: 18px;
+    font-family: krub;
+    margin-right: 150px;
+    margin-left: 30px;
+    margin-top: 108px;
+    width: 70px;
+    height: 30px;
+    background: #FF8200;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.icone-produtos4 {
+    margin-left: 130px;
+    margin-top: 80px;
+    width: 120px;
+    Height: 150px;
+    background-color: rgba(96, 96, 96, 1);
+    border-radius: 5px;
+}
+
+.botao4 {
+    font-size: 18px;
+    font-family: krub;
+    margin-right: 150px;
+    margin-left: 30px;
+    margin-top: 108px;
+    width: 70px;
+    height: 30px;
+    background: #FF8200;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.icone-produtos5 {
+    margin-right: 150px;
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 120px;
+    Height: 150px;
+    background-color: rgba(96, 96, 96, 1);
+    border-radius: 5px;
+}
+
+.botao5 {
+    font-family: krub;
+    font-size: 18px;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 108px;
+    width: 70px;
+    height: 30px;
+    background: #FF8200;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    text-decoration: none;
+}
+.endereço{
+    margin-right: 30px;
+}
+
+
+.rodape {
+    font-family: Arima Madurai;
+    background-color: #1F75A7;
+    color: white;
+    margin-top: 30px;
+    display:flex;
+    height: 250px;
+    justify-content:space-around;
+    text-align: center
+    
+}
+
+.mapa {
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 250px;
+    height: 200px;
+}
